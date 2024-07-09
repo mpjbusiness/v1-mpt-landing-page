@@ -1,12 +1,10 @@
-name: fathym-mpt/v1-mpt-landing-page
+name: mpjbusiness/v1-mpt-landing-page
 
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
-  repository_dispatch:
-    types: [plasmic]  
   workflow_dispatch:
 
 permissions: write-all
