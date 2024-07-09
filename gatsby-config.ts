@@ -29,14 +29,3 @@ const config: GatsbyConfig = {
 }
 
 export default config
-
-module.exports = {
-  plugins: [
-    {
-      resolve: 'gatsby-plugin-manifest',
-      options: {
-        icon: 'src/images/MPTSmallLeafIcon.png',
-      },
-    },
-  ],
-};
